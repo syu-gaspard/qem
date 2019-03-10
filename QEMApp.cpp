@@ -3,6 +3,8 @@
 #include <vector>
 #include <iostream>
 
+#include "Vector3.h"
+
 
 QEMApp::QEMApp(const std::vector<std::string>& args) :
  debugEnabled_(false)
@@ -28,7 +30,7 @@ void QEMApp::parseArgs(const std::vector<std::string>& args)
     }
 }
 
-void QEMApp::Print()
+void QEMApp::print()
 {
     std::cout << "-f : " << plyFile_ << "\n"
               << "-d : " << (debugEnabled_ ? "ON" : "OFF") << "\n"

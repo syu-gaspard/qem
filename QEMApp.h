@@ -9,7 +9,7 @@ class QEMApp
 public:
     QEMApp(const std::vector<std::string>& args);
 
-    void Print();
+    void print();
 
 private:
     void parseArgs(const std::vector<std::string>& args);

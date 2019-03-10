@@ -14,6 +14,6 @@ namespace {
 int main(int argc, const char* argv[])
 {
     QEMApp* app = createApp(argc, argv);
-    app->Print();
+    app->print();
     return 0;
 }
